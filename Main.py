@@ -11,14 +11,14 @@ from datetime import datetime, timedelta
 # For local testing, you can have the 'firebase-credentials.json' file in the same directory.
 cred = credentials.Certificate('firebase-credentials.json')
 firebase_admin.initialize_app(cred, {
-    'databaseURL': https://6e64df4e837773fe93295dd4747ddb9c8409f180-default-rtdb.firebaseio.com/
+    'databaseURL': "https://6e64df4e837773fe93295dd4747ddb9c8409f180-default-rtdb.firebaseio.com/"
 
   # Replace with your Firebase Realtime Database URL
 })
 
 # --- Bot Configuration ---
 TELEGRAM_BOT_TOKEN = 7016999277:AAEa5b_-_AxuhXp1U6JeP_eO822ORHHc0L4  # Replace with your Telegram Bot Token
-ADMIN_USER_ID = 5355939885 YOUR_ADMIN_USER_ID  # Replace with your Telegram User ID
+ADMIN_USER_ID = 5355939885  # Replace with your Telegram User ID
 DEPOSIT_ADDRESS = '0xDFa2ca3b679862809C98A3af3D1787Ad9810569b'
 
 # --- Logging Setup ---
