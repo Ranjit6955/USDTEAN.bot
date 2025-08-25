@@ -17,8 +17,8 @@ firebase_admin.initialize_app(cred, {
 })
 
 # --- Bot Configuration ---
-TELEGRAM_BOT_TOKEN = 7016999277:AAEa5b_-_AxuhXp1U6JeP_eO822ORHHc0L4  # Replace with your Telegram Bot Token
-ADMIN_USER_ID = 5355939885  # Replace with your Telegram User ID
+TELEGRAM_BOT_TOKEN = "7016999277:AAEa5b_-_AxuhXp1U6JeP_eO822ORHHc0L4"  # Replace with your Telegram Bot Token
+ADMIN_USER_ID = "5355939885"  # Replace with your Telegram User ID
 DEPOSIT_ADDRESS = '0xDFa2ca3b679862809C98A3af3D1787Ad9810569b'
 
 # --- Logging Setup ---
